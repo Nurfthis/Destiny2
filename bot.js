@@ -109,3 +109,6 @@ client.on('message', msg => {
 
 
 client.login(process.env.BOT_TOKEN);
+
+const Eris = require("eris");
+var bot = new Eris(process.env.BOT_TOKEN);
